@@ -1,32 +1,26 @@
-.main{
+body{
   background-image: url(../img/Soft_Wave_Background.jpg);
   background-size: cover;
 }
-
 .wrapper {
   width: 480px;
   display: inline-block;
   padding: 30px;
-  margin: 450px;
+  margin: auto 300px;
   background-color:white;
   margin-top: 100px;
 }
 h2,h3,h4 {
   color: #263555;
 }
-li{
-  list-style-type: none;
+.a-column {
   color: #263555;
   font-size: 17px;
-  margin: 8px;
+  width: 480px;
 }
-.a-column
-{
+.a-column li{
+  list-style-type: none;
   display: inline-block;
-  width: 230px;
-}
-.b-column
-{
-  display: inline-block;
-  width: 240px;
+  width: 200px;
+  padding: 5px;
 }
