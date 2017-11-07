@@ -13,6 +13,9 @@ body{
 h2,h3,h4 {
   color: #263555;
 }
+.underline{
+  border-bottom: 1px solid gray;
+}
 .a-column {
   color: #263555;
   font-size: 17px;
