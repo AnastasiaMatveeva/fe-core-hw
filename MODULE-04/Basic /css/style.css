@@ -1,0 +1,148 @@
+body {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+img {
+  float: left;
+  margin: 6px 18px 6px 0px;
+}
+
+h2, h3, li {
+  color: #263555;
+}
+
+.wrapper {
+  width: 970px;
+  height: 1235px;
+  margin: auto;
+  background-color: white;
+  padding: 50px;
+  margin-top: 100px;
+}
+
+.column {
+  display: inline-block;
+  padding: 20px;
+  vertical-align: top;
+}
+
+.column-left {
+  width: 650px;
+}
+
+.column-right {
+  width: 230px;
+}
+
+.line {
+  border-bottom: 1px solid #dedbdb;
+}
+
+.bottom-right {
+  margin-left: 80px;
+  position: relative;
+  width: 200px;
+  display: inline-block;
+  bottom: 405px;
+}
+
+.bottom-left {
+  padding-top: 25px;
+  width: 655px;
+  display: inline-block;
+}
+
+ul li {
+  display: inline-block;
+  list-style-type: none;
+  width: 300px;
+  margin-bottom: 14px;
+}
+
+ul li::before {
+  content: url(../img/pointer.png);
+  margin: 8px;
+  position: relative;
+  top: 3px;
+}
+
+ol {
+  counter-reset: myCounter;
+  position: relative;
+}
+
+ol li {
+  list-style: none;
+}
+
+ol li:before {
+  counter-increment: myCounter;
+  content: counter(myCounter);
+  color: white;
+  background-color: rgba(56, 172, 230, 0.5);
+  display: inline-block;
+  text-align: center;
+  margin: 5px 10px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 200px;
+  border-radius: 50%;
+}
+
+.quote p::before {
+  content: "\201C";
+  position: absolute;
+  top: 26px;
+  left: 3px;
+}
+
+.quote p::after {
+  content: "\201D";
+  position: absolute;
+  bottom: 50px;
+  left: 45px;
+}
+
+.quote {
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  border: 1px solid #dfdcdc;
+  padding: 10px;
+  background-color: #fcfafa;
+  border-radius: 2%;
+}
+
+.quote::before {
+  content: '';
+  border-top: 41px solid #dfdcdc;
+  border-left: 22px solid transparent;
+  border-right: 21px solid transparent;
+  bottom: -41px;
+  left: 85px;
+  display: block;
+  position: absolute;
+}
+
+.quote::after {
+  content: '';
+  border-top: 41px solid #fcfafa;
+  border-left: 21px solid transparent;
+  border-right: 21px solid transparent;
+  bottom: -40px;
+  left: 85px;
+  display: block;
+  position: absolute;
+}
+
+.signature {
+  position: absolute;
+  height: 50px;
+  top: 280px;
+  text-align: center;
+  width: 205px;
+}
