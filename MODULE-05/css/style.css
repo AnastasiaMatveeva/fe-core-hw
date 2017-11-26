@@ -1,0 +1,210 @@
+body {
+  background-image: url(../img/background.png);
+  background-size: cover;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+.wrapper {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+}
+h1{
+  font-family: 'Dorsa', sans-serif;
+  color: #263555;
+  position: relative;
+  top: 35px;
+  font-size: 80px;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+a:hover{
+  color: #263555;
+}
+li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 20px;
+  position: relative;
+  text-align: center;
+  font-size: 25px;
+}
+li:nth-child(4){
+content: '';
+background-color: #fff;
+height: 140px;
+width: 140px;
+border-radius: 50%;
+vertical-align: middle;
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 45px;
+    top: 31px;
+    background-color: white;
+    border-radius: 5%;
+}
+ul.menu > li:hover > ul.submenu {
+    display: block;
+
+}
+ul.submenu > li > a {
+color: #263555;
+font-size: 15px;
+}
+ul.submenu > li {
+  margin: auto;
+}
+ul.submenu::before {
+  content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 5px 5px 5px;
+    border-color: transparent transparent #ffff transparent;
+    position: absolute;
+    bottom: 75px;
+    left: 19px;
+}
+.content {
+  height: 1170px;
+  background-color: #ffff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+}
+.picture1 {
+  height: 570px;
+  width: 900px;
+  background-image: url(../img/picture1.png);
+  position: absolute;
+  top: 100px;
+  }
+.tagline1 ,.tagline2 {
+  height: 60px;
+  position: absolute;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.tagline1 {
+  width: 220px;
+  background-color: #ffffff;
+  top: 250px;
+  font-size: 25px;
+}
+.tagline2 {
+  width: 275px;
+  background-color: #38afe5;
+  top: 310px;
+  color: #ffffff;
+  font-size: 36px;
+}
+.button {
+  position: absolute;
+  text-align: center;
+  line-height: 65px;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background: #5DADE2;
+  top: 450px;
+  left: 35px;
+}
+.button:before {
+  content: '\2190  \2192';
+  color: white;
+}
+.button:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+.top-destination{
+  font-size: 30px;
+  position: absolute;
+  bottom: -80px;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  height: 400px;
+  position: absolute;
+  top: 630px;
+}
+.city {
+  width: 280px;
+  height: 260px;
+  margin: 10px;
+}
+.venice {
+  background-image: url('../img/1.png');
+}
+.ny {
+  background-image: url('../img/2.png');
+}
+.paris {
+  background-image: url('../img/3.png');
+}
+.aboutcity {
+width: 160px;
+height: 260px;
+left: 0;
+background-color: #193149;
+color: #fff;
+position: relative;
+display: none;
+}
+.city:hover .aboutcity {
+  display: block;
+}
+h4 {
+font-family: 'Pathway Gothic One', sans-serif;
+font-size: 30px;
+letter-spacing: 2px;
+color: #D7DBDD;
+padding-top: 10px;
+text-align: center;
+}
+.textabout {
+  color: #D7DBDD;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 12px;
+  line-height: 17px;
+  padding-top: 10px;
+  padding-left: 8px;
+  text-align: left;
+}
+.aboutcity button {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+.to-top {
+  position: fixed;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #5DADE2;
+  bottom: 4px;
+  right: 235px;
+}
+.to-top:before {
+  content: '\2227';
+  color: white;
+  position: absolute;
+  top: 5px;
+  left: 13px;
+
+}
