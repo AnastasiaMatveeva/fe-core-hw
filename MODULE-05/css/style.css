@@ -2,6 +2,7 @@ body {
   background-image: url(../img/background.png);
   background-size: cover;
   font-family: 'Pathway Gothic One', sans-serif;
+
 }
 
 .wrapper {
@@ -21,8 +22,8 @@ h1 {
   font-family: 'Dorsa', sans-serif;
   color: #263555;
   position: relative;
-  top: 35px;
-  font-size: 80px;
+  top: 55px;
+  font-size: 30px;
 }
 
 a {
@@ -40,7 +41,7 @@ li {
   margin: 20px;
   position: relative;
   text-align: center;
-  font-size: 25px;
+  font-size: 10px;
 }
 
 li:nth-child(4) {
@@ -67,7 +68,7 @@ ul.menu>li:hover>ul.submenu {
 
 ul.submenu>li>a {
   color: #263555;
-  font-size: 15px;
+  font-size: 10px;
 }
 
 ul.submenu>li {
@@ -114,15 +115,16 @@ ul.submenu::before {
   width: 220px;
   background-color: #ffffff;
   top: 250px;
-  font-size: 25px;
+  font-size: 13px;
+  padding-top: 23px;
 }
 
 .tagline2 {
-  width: 275px;
+  width: 286px;
   background-color: #38afe5;
   top: 310px;
   color: #ffffff;
-  font-size: 36px;
+  font-size: 22px;
 }
 
 .button {
