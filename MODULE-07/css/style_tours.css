@@ -17,9 +17,9 @@ h4, h2, li {
 h3 {
   color: #38afe5;
   margin: 5px;
-
 }
-p{
+
+p {
   font-size: 12px;
 }
 
@@ -37,15 +37,18 @@ article {
   padding: 60px 30px 25px;
   font-size: 35px;
 }
+
 .title_3 {
   font-size: 35px;
   margin-top: 30px;
 }
-.title_4{
+
+.title_4 {
   color: #38afe5;
   font-size: 12px;
   margin-top: 50px;
 }
+
 .sections {
   display: flex;
   padding: 0 0 40px 10px;
@@ -57,26 +60,29 @@ article {
   display: flex;
   flex-wrap: wrap;
 }
+
 .section_2 {
   width: 230px;
   margin: 1rem;
 }
+
 select {
--webkit-appearance: none;
--moz-appearance: none;
-outline: 0;
-box-shadow: none;
-border: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0;
 }
 
-.select{
+.select {
   width: 250px;
   position: relative;
   margin: 10px 0 20px;
 }
 
 .brouse::after, .destination::after,
-.departing::after, .price::after,.durating::after  {
+.departing::after, .price::after,
+.durating::after {
   content: '\2228';
   position: absolute;
   top: 0;
@@ -87,17 +93,20 @@ border: 0;
   border: 1px solid #868f8f;
   pointer-events: none;
 }
+
 select {
-width: 100%;
-padding: 6px;
-color: #868f8f;
-background-color: #fcfafa;
-cursor: pointer;
-border: 1px solid;
-border-radius: 0;
+  width: 100%;
+  padding: 6px;
+  color: #868f8f;
+  background-color: #fcfafa;
+  cursor: pointer;
+  border: 1px solid;
+  border-radius: 0;
 }
 
-.goa, .lakehome, .amphitheater, .egypt, .russia, .pool {
+.goa, .lakehome,
+.amphitheater, .egypt,
+.russia, .pool {
   width: 270px;
   height: 150px;
   font-size: 13px;
