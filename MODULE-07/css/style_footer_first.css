@@ -1,0 +1,28 @@
+footer.first {
+  width: 970px;
+  background-color: #30455b;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottom-menu {
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  display: flex;
+  padding: 15px;
+}
+
+.bottom-menu>div {
+  font-family: 'Dorsa', sans-serif;
+  letter-spacing: 1px;
+  width: 190px;
+  height: 50px;
+  font-size: 35px;
+  color: #fff;
+}
+
+.bottom-menu>div:nth-child(8) {
+  font-size: 23px;
+  letter-spacing: 2px;
+}

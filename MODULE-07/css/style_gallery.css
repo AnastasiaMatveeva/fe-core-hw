@@ -1,0 +1,219 @@
+body {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+article {
+  width: 970px;
+  margin: auto;
+  background-color: white;
+  padding: 0px;
+}
+
+nav {
+  min-width: 970px;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: 'Dorsa', sans-serif;
+  color: #263555;
+  font-size: 65px;
+  margin: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #263555;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline-flex;
+  margin: 20px;
+  text-align: center;
+  font-size: 25px;
+  position: relative;
+}
+
+nav li:nth-child(4) {
+  content: '';
+  background-color: #fff;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+ul.submenu {
+  display: none;
+  width: 45px;
+  background-color: white;
+  border-radius: 5%;
+  position: absolute;
+  padding: 0;
+  top: 32px;
+}
+
+ul.menu>li:hover>ul.submenu {
+  display: block;
+}
+
+ul.submenu>li>a {
+  color: #263555;
+  font-size: 15px;
+  padding: 3px;
+}
+
+ul.submenu>li {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+ul.submenu::before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 5px 5px 5px;
+  border-color: transparent transparent #ffff transparent;
+  position: absolute;
+  bottom: 69px;
+  left: 17px;
+}
+
+.wrapper {
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  display: flex;
+  padding: 60px 40px 60px 0px;
+  position: relative;
+}
+.title{
+  position: absolute;
+  width: 200px;
+  top: 30px;
+  left: 30px;
+  font-size: 30px;
+  color: #263555;
+}
+.gallery {
+  width: 250px;
+  height: 155px;
+  margin: 19px;
+  position: relative;
+}
+
+footer.first {
+  width: 970px;
+  background-color: #30455b;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottom-menu {
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  display: flex;
+  padding: 15px;
+}
+
+.bottom-menu>div {
+  font-family: 'Dorsa', sans-serif;
+  letter-spacing: 1px;
+  width: 190px;
+  height: 50px;
+  font-size: 35px;
+  color: #fff;
+}
+
+.bottom-menu>div:nth-child(8) {
+  font-size: 23px;
+  letter-spacing: 2px;
+}
+
+footer.second {
+  color: #fff;
+  text-align: center;
+}
+
+ul.social {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+}
+
+.social li {
+  background-image: url(../img/sprite.png);
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.social .facebook {
+  background-position: -53px;
+}
+
+.social .google {
+  background-position: -107px;
+}
+
+.social .linkedin {
+  background-position: -162px;
+}
+
+.to-top {
+  position: absolute;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #5DADE2;
+  right: 0;
+  bottom: 0;
+}
+
+.to-top:before {
+  content: '\2227';
+  color: white;
+  position: absolute;
+  top: 5px;
+  left: 13px;
+}
+
+.social .twitter:hover,
+.social .google:hover,
+.social .facebook:hover,
+.social .linkedin:hover,
+.to-top:hover, .closebutton:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.cover {
+  width: 288px;
+  height: 155px;
+  background-image: url(../img/cover.png);
+  opacity: 0.7;
+  position: absolute;
+  display: none;
+  overflow: hidden;
+  top: 0;
+}
+
+.gallery:hover .cover {
+  display: block;
+}
