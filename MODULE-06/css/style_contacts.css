@@ -1,0 +1,28 @@
+body {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+article {
+  width: 970px;
+  margin: auto;
+  background-color: #fff;
+  padding: 0px;
+}
+.titles {
+  width: 692px;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 30px 25px;
+  font-size: 35px;
+}
+.section_2 {
+  width: 230px;
+  margin: 1rem;
+}
+input {
+  width: 210px;
+  padding: 2px;
+  margin: 8px;
+}

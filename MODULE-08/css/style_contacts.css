@@ -1,0 +1,102 @@
+body {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+h4 {
+  margin: 0 15px 10px 0;
+}
+article {
+  width: 970px;
+  margin: auto;
+  background-color: #fff;
+  padding: 0px;
+}
+.titles {
+  width: 756px;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 30px 25px;
+  font-size: 35px;
+}
+.sections {
+  display: flex;
+  padding: 0 0 40px 10px;
+  position: relative;
+}
+.section_1{
+  width: 630px;
+  display: flex;
+}
+.section_2 {
+  width: 230px;
+  margin: 16px;
+}
+input, textarea{
+  width: 210px;
+  padding: 4px;
+  margin: 8px;
+  background-color: #fcfafa;
+  outline: none;
+}
+
+textarea {
+  height: 210px;
+  resize: none;
+  border-color:#d4d0d0;
+}
+button {
+  width: 55px;
+  background-color: #fcfafa;
+  border-radius: 10%;
+  margin: 10px;
+  padding: 4px;
+  outline: none;
+  cursor: pointer;
+}
+.buttons {
+  margin-left: 77px;
+}
+.map {
+  margin: 20px;
+}
+.adress {
+  margin-top: 17px;
+  color: #747373;
+}
+.contacts {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  display: flex;
+}
+.contacts li {
+  width: 120px;
+  margin: 0 0 5px;
+}
+
+.contacts li:nth-child(8){
+  color: red;
+}
+.to-top {
+  position: absolute;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #5DADE2;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+}
+
+.to-top:before {
+  content: '\2227';
+  color: white;
+  position: absolute;
+  top: 5px;
+  left: 13px;
+}

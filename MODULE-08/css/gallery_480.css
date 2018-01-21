@@ -1,0 +1,16 @@
+@media (max-width:480px) {
+  article {
+    min-width: 460px;
+  }
+  .wrapper {
+    display: block;
+    padding-left: 0;
+  }
+  .gallery {
+    margin: 25px 0 25px 0;
+    width: 80%;
+  }
+  .gallery img {
+    width: 100%;
+  }
+}

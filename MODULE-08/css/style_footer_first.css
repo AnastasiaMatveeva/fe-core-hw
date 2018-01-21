@@ -1,0 +1,48 @@
+@import"gallery_first_footer_480.css";
+footer {
+  max-width: 1024px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+ul.bottom-menu {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: center;
+  list-style-type: none;
+  padding: 30px 0;
+  background-color: #30455b;
+}
+
+.bottom-menu a {
+  display: block;
+  text-decoration: none;
+}
+
+.bottom-menu p {
+  margin: 0;
+  font-family: 'Arial Regular', sans-serif;
+  font-size: 0.625rem;
+  text-align: left;
+  color: #fff;
+}
+
+.bottom-menu a,
+ul.bottom-menu
+li:last-child p:first-child {
+  margin-bottom: 5px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 0.75rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.bottom-menu a:hover {
+  color: #38afe5;
+}
+
+p img {
+  display: none;
+}

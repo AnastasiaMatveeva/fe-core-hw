@@ -1,0 +1,15 @@
+@media (max-width: 480px) {
+  .bottom-menu li:last-child {
+    width: 100%;
+    text-align: center;
+  }
+  .bottom-menu li:last-child p, .bottom-menu li:last-child img {
+    display: inline-block;
+  }
+  .botoom-menu img {
+    padding-right: 5px;
+  }
+  .botoom-menu li:last-child p {
+    padding: 5px 0 0 5px;
+  }
+}

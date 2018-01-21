@@ -1,0 +1,124 @@
+body {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+img {
+  float: left;
+  margin: 6px 18px 9px 5px;
+}
+
+h4, h2, li {
+  color: #263555;
+  margin: 7px;
+}
+
+h3 {
+  color: #38afe5;
+  margin: 5px;
+
+}
+p{
+  font-size: 12px;
+}
+
+article {
+  width: 970px;
+  margin: auto;
+  background-color: #fff;
+  padding: 0px;
+}
+
+.titles {
+  width: 692px;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 30px 25px;
+  font-size: 35px;
+}
+.title_3 {
+  font-size: 35px;
+  margin-top: 30px;
+}
+.title_4{
+  color: #38afe5;
+  font-size: 12px;
+  margin-top: 50px;
+}
+.sections {
+  display: flex;
+  padding: 0 0 40px 10px;
+  position: relative;
+}
+
+.section_1 {
+  width: 630px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.section_2 {
+  width: 230px;
+  margin: 1rem;
+}
+select {
+-webkit-appearance: none;
+-moz-appearance: none;
+outline: 0;
+box-shadow: none;
+border: 0;
+}
+
+.select{
+  width: 250px;
+  position: relative;
+  margin: 10px 0 20px;
+}
+
+.brouse::after, .destination::after,
+.departing::after, .price::after,.durating::after  {
+  content: '\2228';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 10px;
+  background: #fcfafa;
+  border: 1px solid #868f8f;
+  pointer-events: none;
+}
+select {
+width: 100%;
+padding: 6px;
+color: #868f8f;
+background-color: #fcfafa;
+cursor: pointer;
+border: 1px solid;
+border-radius: 0;
+}
+
+.goa, .lakehome, .amphitheater, .egypt, .russia, .pool {
+  width: 270px;
+  height: 150px;
+  font-size: 13px;
+  margin: 20px;
+}
+
+.to-top {
+  position: absolute;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #5DADE2;
+  bottom: 0;
+  right: 0;
+}
+
+.to-top:before {
+  content: '\2227';
+  color: white;
+  position: absolute;
+  top: 5px;
+  left: 13px;
+}
