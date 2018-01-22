@@ -38,12 +38,14 @@ nav li {
 
 ul.submenu {
   display: none;
-  width: 45px;
+  width: 54px;
   background-color: white;
   border-radius: 5%;
   position: absolute;
   padding: 0;
-  top: 32px;
+  top: 27px;
+  left: -4px;
+  z-index: 1;
 }
 
 ul.menu>li:hover>ul.submenu {
@@ -68,9 +70,9 @@ ul.submenu::before {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 0 5px 5px 5px;
+  border-width: 0 8px 8px 8px;
   border-color: transparent transparent #ffff transparent;
   position: absolute;
-  bottom: 69px;
-  left: 17px;
+  bottom: 63px;
+  left: 20px;
 }
