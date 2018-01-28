@@ -1,0 +1,67 @@
+@import "nav_mobile_tablet.css";
+@import"nav_desktop.css";
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  content: '';
+  background-color: #fff;
+  border-radius: 50%;
+  width: 9rem;
+  line-height: 2.7;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1>a {
+  color: #263555;
+}
+
+.navbar [class*=col-] {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+ul.submenu {
+  display: none;
+  width: 3.625rem;
+  background-color: white;
+  border-radius: 5%;
+  padding-left: 10px;
+  opacity: 0.7;
+  z-index: 1;
+  position: absolute;
+}
+
+.submenu:hover>ul {
+  display: block;
+}
+
+ul.submenu>li>a {
+  color: #263555;
+  font-size: 1rem;
+}
+
+ul.submenu>li {
+  display: flex;
+  line-height: 1.5;
+}
+
+ul.submenu::before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 8px 8px 8px;
+  border-color: transparent transparent #ffff transparent;
+  position: absolute;
+  bottom: 69px;
+  left: 22px;
+}

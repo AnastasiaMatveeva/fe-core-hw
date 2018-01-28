@@ -1,0 +1,54 @@
+@media (min-width:768px) and (max-width:991px) {
+  img.mobile {
+    display: none;
+  }
+  img.desktop {
+    float: left;
+    margin: 1rem;
+    margin-left: 0;
+  }
+  .quote {
+    width: 100%;
+    padding: 1rem
+    ;
+  }
+  ol li:before {
+    right: 11.1rem;
+  }
+  .quote::before,
+  .quote::after {
+    left: 3rem;
+  }
+  .quote p::before {
+    top: 0.69rem;
+    left: 0.6rem;
+  }
+  .quote p::after {
+    bottom: 2rem;
+    left: 6.6rem;
+  }
+  .signature {
+    text-align: center;
+    margin-top: 4.25rem;
+  }
+  .signature p {
+    font-size: 0.8rem;
+  }
+  .section-2-content {
+    padding-left:1rem;
+  }
+.container-section-2 h2{
+  padding: 1rem 0 1rem;
+
+}
+.container-list {
+  border-bottom: 1px solid #dedbdb;
+}
+.list ul li {
+  width: 12rem;
+}
+.to-top {
+  bottom:0.1rem;
+  right: 0.1rem;
+}
+}

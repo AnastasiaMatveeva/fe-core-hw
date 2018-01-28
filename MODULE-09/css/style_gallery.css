@@ -1,0 +1,56 @@
+@import "gallery_mobile.css";
+@import "gallery_tablet.css";
+@import "gallery_desktop.css";
+
+body {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+article {
+  margin: auto;
+  background-color: white;
+  padding: 0px;
+}
+
+.wrapper {
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  display: flex;
+  padding-top: 60px;
+  position: relative;
+}
+.title{
+  position: absolute;
+  width: 200px;
+  top: 30px;
+  left: 30px;
+  font-size: 30px;
+  color: #263555;
+}
+.gallery {
+  position: relative;
+  list-style-type: none;
+}
+.gallery img {
+  width: 100%;
+  height: 100%;
+}
+
+.cover {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/cover.png);
+  background-size: contain;
+  opacity: 0.7;
+  position: absolute;
+  display: none;
+  overflow: hidden;
+  top: 0;
+}
+
+.gallery:hover .cover {
+  display: block;
+}

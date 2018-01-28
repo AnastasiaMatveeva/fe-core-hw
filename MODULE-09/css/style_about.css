@@ -1,0 +1,109 @@
+@import "about_mobile.css";
+@import "about_tablet.css";
+@import "about_desktop.css";
+body {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+main {
+  max-width: 85vw;
+}
+
+h2 {
+  padding-top: 1.5rem;
+}
+
+h2, h3, li {
+  color: #263555;
+}
+
+article {
+  max-width: 85vw;
+  margin: auto;
+  background-color: white;
+  padding: 0px;
+}
+
+.container-content {
+  position: relative;
+}
+
+ol.container-list {
+  padding-left: 2rem;
+}
+
+.list ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-bottom: 14px;
+}
+
+.list ul li::before {
+  content: url(../img/pointer.png);
+  margin: 8px;
+  position: relative;
+  top: 3px;
+}
+
+ol {
+  counter-reset: myCounter;
+  position: relative;
+}
+
+ol li {
+  list-style: none;
+}
+
+ol li:before {
+  counter-increment: myCounter;
+  content: counter(myCounter);
+  color: white;
+  background-color: rgba(56, 172, 230, 0.5);
+  display: inline-block;
+  text-align: center;
+  margin: 5px 10px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.quote p::before {
+  content: "\201C";
+  position: absolute;
+}
+
+.quote p::after {
+  content: "\201D";
+  position: absolute;
+}
+
+.quote {
+  position: relative;
+  border: 1px solid #dfdcdc;
+  background-color: #fcfafa;
+  border-radius: 2%;
+}
+
+.quote::before {
+  content: '';
+  border-top: 41px solid #dfdcdc;
+  border-left: 22px solid transparent;
+  border-right: 21px solid transparent;
+  bottom: -41px;
+  display: block;
+  position: absolute;
+}
+
+.quote::after {
+  content: '';
+  border-top: 41px solid #fcfafa;
+  border-left: 21px solid transparent;
+  border-right: 21px solid transparent;
+  bottom: -40px;
+  display: block;
+  position: absolute;
+}

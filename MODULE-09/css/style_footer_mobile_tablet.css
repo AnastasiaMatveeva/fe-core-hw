@@ -1,0 +1,11 @@
+@media (min-width:576px) and (max-width:991px){
+  .container-contacts {
+    margin-left: 0;
+    margin-top: 1rem;
+    padding-left: 0;
+  }
+  .container-contacts .col-sm-9 {
+    padding-left: 0;
+  }
+
+}

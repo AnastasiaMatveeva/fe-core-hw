@@ -1,0 +1,56 @@
+@media (min-width:576px) and (max-width:767px) {
+  img.mobile {
+    width: 100%;
+    margin: 1rem 0;
+  }
+  img.desktop {
+    display: none;
+  }
+  h2 {
+    padding-top: 1.5rem;
+  }
+  ol li:before {
+    right: 26.5rem;
+  }
+  .list ul li {
+    width: 48%;
+  }
+  .list ul {
+    padding-left: 0;
+  }
+  .quote {
+    width: 70%;
+    padding: 0.6rem;
+    margin: 0 auto;
+  }
+  .quote::before,
+  .quote::after {
+    left: 8.5rem;
+  }
+  .quote p::before {
+    left: 0.3rem;
+  }
+  .quote p::after {
+    bottom: 1.7rem;
+  }
+  .container-section-2 h2 {
+    padding: 0 1rem;
+  }
+  .signature {
+    text-align: center;
+    margin-top: 3.1rem;
+  }
+  .section-2-content {
+    padding-left: 1rem;
+  }
+  .container-list {
+    border-bottom: 1px solid #dedbdb;
+  }
+  .list ul li {
+    width: 14rem;
+  }
+  .to-top {
+    bottom:0.1rem;
+    right: 0.1rem;
+  }
+}
