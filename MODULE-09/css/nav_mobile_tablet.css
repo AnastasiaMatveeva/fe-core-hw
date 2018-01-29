@@ -1,6 +1,9 @@
 @media(min-width:768px) and (max-width:991px) {
+
+nav{
+  max-width: 350px;
+}
   .container-width {
-    width: 60%;
     line-height: 4;
   }
   .navbar.col-sm-12 {
@@ -15,10 +18,13 @@
   }
   ul.submenu{
     top: 4.1rem;
-    left: 31%;
+    margin-left: 0.9rem;
   }
 }
 @media(min-width:576px) and (max-width:767px) {
+  nav {
+    max-width: 593px;
+  }
   .container-width {
     width: 60%;
     line-height: 4;
@@ -35,6 +41,6 @@
     }
   ul.submenu{
     top: 4.1rem;
-    left:24%;
+    margin-left: 0.9rem;
   }
 }

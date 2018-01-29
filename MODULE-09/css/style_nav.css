@@ -1,6 +1,9 @@
 @import "nav_mobile_tablet.css";
 @import"nav_desktop.css";
 
+nav {
+   margin: 0 auto;
+}
 h1 {
   font-size: 3rem;
   text-align: center;

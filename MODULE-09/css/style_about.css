@@ -7,10 +7,6 @@ body {
   font-family: 'Pathway Gothic One', sans-serif;
 }
 
-main {
-  max-width: 85vw;
-}
-
 h2 {
   padding-top: 1.5rem;
 }
@@ -20,7 +16,6 @@ h2, h3, li {
 }
 
 article {
-  max-width: 85vw;
   margin: auto;
   background-color: white;
   padding: 0px;
@@ -63,7 +58,6 @@ ol li:before {
   background-color: rgba(56, 172, 230, 0.5);
   display: inline-block;
   text-align: center;
-  margin: 5px 10px;
   line-height: 30px;
   width: 30px;
   height: 30px;

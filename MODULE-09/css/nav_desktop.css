@@ -1,11 +1,13 @@
 @media(min-width:992px) {
+nav{
+  max-width: 700px;
+}
   .container-width {
-    width: 70%;
     margin: 0 auto;
     line-height: 5;
   }
   h1 {
-    margin-left: 2.7rem;
+    margin-left: 2.5rem;
   }
   ul.submenu {
     top: 4.9rem;

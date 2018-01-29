@@ -1,4 +1,7 @@
 @media (min-width:768px) and (max-width:991px) {
+  article {
+    max-width: 700px;
+  }
   img.mobile {
     display: none;
   }
@@ -9,11 +12,10 @@
   }
   .quote {
     width: 100%;
-    padding: 1rem
-    ;
+    padding: 1rem;
   }
   ol li:before {
-    right: 11.1rem;
+    margin: 0px -33px;
   }
   .quote::before,
   .quote::after {
@@ -25,7 +27,7 @@
   }
   .quote p::after {
     bottom: 2rem;
-    left: 6.6rem;
+  margin-left: 0.1rem;
   }
   .signature {
     text-align: center;
@@ -35,20 +37,19 @@
     font-size: 0.8rem;
   }
   .section-2-content {
-    padding-left:1rem;
+    padding-left: 1rem;
   }
-.container-section-2 h2{
-  padding: 1rem 0 1rem;
-
-}
-.container-list {
-  border-bottom: 1px solid #dedbdb;
-}
-.list ul li {
-  width: 12rem;
-}
-.to-top {
-  bottom:0.1rem;
-  right: 0.1rem;
-}
+  .container-section-2 h2 {
+    padding: 1rem 0 1rem;
+  }
+  .container-list {
+    border-bottom: 1px solid #dedbdb;
+  }
+  .list ul li {
+    width: 12rem;
+  }
+  .to-top {
+    bottom: 0.1rem;
+    right: 0.1rem;
+  }
 }
