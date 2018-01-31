@@ -1,0 +1,16 @@
+@media (min-width:481px) and (max-width:768px) {
+  .gallery__item:nth-of-type(9) {
+    display: none;
+  }
+  .gallery__content {
+    max-width: 768px;
+    padding-left: 0;
+  }
+  .gallery__item{
+    margin: 10px;
+    width: 43%;
+  }
+  .gallery__image {
+    width: 100%;
+  }
+}

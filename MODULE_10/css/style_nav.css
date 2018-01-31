@@ -1,0 +1,77 @@
+@import"gallery_nav_480.css";
+@import"gallery_nav_1024.css";
+.nav__logo {
+  font-family: 'Dorsa', sans-serif;
+  color: #263555;
+  font-size:65px;
+  content: '';
+  background-color: #fff;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  line-height: 2;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav__link--hover:hover {
+  color: #263555;
+}
+.nav__item{
+  list-style-type: none;
+  display: inline-flex;
+  text-align: center;
+  position: relative;
+}
+
+
+.nav__submenu {
+  display: none;
+  width: 54px;
+  background-color: white;
+  border-radius: 5%;
+  position: absolute;
+  padding: 0;
+  top: 27px;
+  left: -4px;
+  z-index: 1;
+}
+
+.nav__menu>.nav__item:hover>.nav__submenu{
+  display: block;
+}
+
+.nav__link--hidden {
+  color: #263555;
+  font-size: 15px;
+  padding: 3px;
+}
+
+.nav__item--hidden {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav__submenu::before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 8px 8px 8px;
+  border-color: transparent transparent #ffff transparent;
+  position: absolute;
+  bottom: 63px;
+  left: 20px;
+}

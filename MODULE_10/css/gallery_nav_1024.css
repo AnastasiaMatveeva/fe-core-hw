@@ -1,0 +1,12 @@
+@media(min-width:769px) {
+  .nav {
+    margin: 0 auto;
+  }
+  .nav__item{
+    font-size: 1.56rem;
+    margin-right: 15px;
+  }
+  .nav__logo {
+    margin: 0 24px;
+  }
+}

@@ -1,36 +1,35 @@
-footer.second {
+.socials{
   color: #fff;
   text-align: center;
 }
-ul.social {
+.socials__list {
   list-style-type: none;
   margin: 10px;
   padding: 0;
 }
-.social li {
+.socials__item {
   background-image: url(../img/sprite.png);
   display: inline-block;
   width: 50px;
   height: 50px;
   border-radius: 50%;
 }
-.social .facebook {
+.socials__item:first-child{
   background-position: -53px;
 }
 
-.social .google {
+.socials__item:nth-child(2) {
   background-position: -107px;
 }
 
-.social .linkedin {
+.socials__item:nth-child(3) {
   background-position: -162px;
 }
-a{
+.socials__links{
   text-decoration: none;
   color: #fff;
 }
-.social__item--hover,
-.gallery__button:hover {
+.social__item--hover:hover,.gallery__button--hover:hover {
   cursor: pointer;
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);

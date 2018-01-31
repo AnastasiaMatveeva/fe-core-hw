@@ -31,7 +31,9 @@ ul.bottom-menu {
   text-align: left;
   color: #fff;
 }
-
+ul.bottom-menu>li{
+  padding: 0;
+}
 .bottom-menu a,
 ul.bottom-menu
 li:last-child p:first-child {

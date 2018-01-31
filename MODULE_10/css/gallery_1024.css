@@ -1,6 +1,5 @@
 @media (min-width:769px) {
-
-  .gallery{
+  .gallery {
     max-width: 1024px;
   }
   .gallery__content {
@@ -10,7 +9,7 @@
     width: 30%;
     margin: 12px 0 0 24px;
   }
-  .gallery__image {
+  .gallery__item img {
     width: 100%;
   }
 }

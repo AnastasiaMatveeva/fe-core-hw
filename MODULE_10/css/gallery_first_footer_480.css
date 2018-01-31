@@ -1,0 +1,16 @@
+@media (max-width: 480px) {
+  .article-footer__items:last-child {
+    width: 100%;
+    text-align: center;
+  }
+  .article-footer__items:last-child .article-footer__text, .article-footer__items:last-child .article-footer__image {
+    display: inline-block;
+  }
+  .article-footer__image {
+    padding-right: 5px;
+  }
+  .article-footer__items:last-child .article-footer__text {
+    /* padding: 5px 0 0 5px; */
+    margin: 0px 14px 0 26px;
+  }
+}
