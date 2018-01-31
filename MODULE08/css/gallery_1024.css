@@ -1,16 +1,15 @@
 @media (min-width:769px) {
-
-  .gallery{
+  article {
     max-width: 1024px;
   }
-  .gallery__content {
+  .wrapper {
     padding: 0px 15px 40px;
   }
-  .gallery__item {
+  .gallery {
     width: 30%;
-    margin: 12px 0 0 24px;
+    margin: 12px 0 0 24px
   }
-  .gallery__image {
+  .gallery img {
     width: 100%;
   }
 }

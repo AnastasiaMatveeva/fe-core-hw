@@ -25,12 +25,11 @@ ul.social {
 .social .linkedin {
   background-position: -162px;
 }
-a{
-  text-decoration: none;
-  color: #fff;
-}
-.social__item--hover,
-.gallery__button:hover {
+
+.social .twitter:hover,
+.social .google:hover,
+.social .facebook:hover,
+.social .linkedin:hover, .to-top:hover {
   cursor: pointer;
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
